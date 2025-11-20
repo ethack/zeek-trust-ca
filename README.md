@@ -1,7 +1,7 @@
 
 Very rough installation steps:
 
-```
+```bash
 # These steps may need to be run as root or with sudo
 # Create a new Zeek plugin that loads the custom certificate into Zeek's trusted cert store
 mkdir -p /opt/zeek/share/zeek/custom-ca
