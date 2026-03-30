@@ -10,7 +10,7 @@ mkdir -p /opt/zeek/share/zeek/custom-ca
 cp *.cer /opt/zeek/share/zeek/custom-ca
 # Copy the script to the directory as well
 cp cer2zeek.sh /opt/zeek/share/zeek/custom-ca
-chmod +x /opt/zeek/share/zeek/custom-ca
+chmod +x /opt/zeek/share/zeek/custom-ca/cer2zeek.sh
 # Run the script. This generates a __load__.zeek that installs the custom certs.
 /opt/zeek/share/zeek/custom-ca/cer2zeek.sh
 # Enable the custom-ca plugin. You may need to create this file and directory if it doesn't exist.
